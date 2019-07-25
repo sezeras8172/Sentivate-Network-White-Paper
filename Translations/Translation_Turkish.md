@@ -75,29 +75,29 @@ UDSP, paketlerin içinde, sağlayıcıların ve çözücülerin VIAT kazanmasın
 
 ![CLIENT CONNECTION](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/images/turkish_2.jpg)
 
-## UNIVERSAL DOMAIN SİSTEMİ
+## EVRENSEL ALAN-ADI SİSTEMİ
 
-### DOMAIN BELGELERİMİZ
-###### YÖNLENDİRME VE KRİPOGRAFİ PARAMETRELER
+### ALAN-ADI SERTİFİKALARI
+###### YÖNLENDİRME (ROUTING) VE KRİPOGRAFİK PARAMETRELER
 
-Etki alanı sertifikaları, yönlendirme, şifreleme ve bir ana bilgisayar adıyla ilişkili ek ayrıntılar sağlar. Etki alanı sertifikaları 3 veya daha fazla anahtar çifti tarafından imzalanır: Ephemeral, Master ve yetkili bir Domain Registrar. Başarılı bir el sıkışma oluşturmak için, etki alanı sertifikası ve geçerli bir imza gerekir.
+Alan-adı sertifikaları, yönlendirme, şifreleme ve bir ana bilgisayar adıyla (hostname) ilişkilendirilmiş ek ayrıntılar sağlar. Alan-adı sertifikaları 3 veya daha fazla anahtar çifti tarafından imzalanır: Ephemeral, Master ve yetkili bir alan-adı kayıtçısı (Domain Registrar). Başarılı bir El Sıkışma oluşturmak için, etki alanı sertifikası ve geçerli bir imza gerekir.
 
-Etki alanının geçici sertifikası, müşterilere dağıttığı her bulmaca için fon depolayan bir cüzdan görevi de görür. Mayınlı Viat'ın bir kısmı geçici sertifika cüzdan adresine gönderilir.
+Alan-adının geçici sertifikası, kullanıcılara dağıttığı her yap-boz için fon depolayan bir cüzdan görevi de görür. Madencilikten çıkarılan VIAT'ın bir kısmı geçici sertifika cüzdan adresine gönderilir.
 
-### DOMAIN REGISTRAR
-###### YÜKLEME & İMZA ALAN BELGELERİMİZ
+### ALAN-ADI KAYITÇIŞI (DOMAIN REGISTRAR)
+###### ALAN-ADI SERTİFİKALARINI KARŞIYA YÜKLEME VE İMZALAMA
 
-Etki Alanı Kayıt Şirketi (DR), bir etki alanı kaydetmek ve bir etki alanının genel sertifikasını yönetmek için kullanılır. DR, ana bilgisayar adıyla ilişkilendirilmiş ortak sertifikaları doğrular ve imzalar. DR, sertifikayı dağıtım için sertifikayı depolayan Etki Alanı Bilgi Sistemine iletir.
+Alan-adı kayıtçısı (Domain Registrar), bir alan-adını kaydetmek ve genel sertifikasını yönetmek için kullanılır. Alan-adı kayıtçısı, ana bilgisayar adıyla ilişkilendirilmiş ortak sertifikaları doğrular ve imzalar. Alan-adı kayıtçısı, sertifikayı dağıtım için sertifikayı depolayan Alan-adı Bilgi Sistemine depolar.
 
 
-### DOMAIN BİLGİ SİSTEMİ
-###### QUERY DOMAIN ROUTING VE KRİPTOGRAFİ
+### ALAN-ADI BİLGİ SİSTEMİ (DOMAIN INFORMATION SYSTEM)
+###### ALAN-ADI YÖNLENDİRME SORGULAMA VE KRİPTOGRAFİ
 
-Etki Alanı Bilgi Sistemi (DIS), insan tarafından okunabilen ana bilgisayar adlarından bir etki alanı sertifikası biçimindeki etki alanına özgü bilgileri döndürür. DIS, etki alanının şifreleme ayrıntılarını ve yönlendirme bilgilerini içeren sertifikasını döndürür. Ana bilgisayar adları şifreleme, yönlendirme bilgileriyle birlikte dahil edildiğinde, 0-RTT, müşteriden önce alanı ziyaret etmesine gerek kalmadan mümkündür. Bu, TLS 1.3'e kıyasla benzersiz bir avantajdır, çünkü 0-RTT varsayılan olarak TLS 1.3'te olduğu gibi siteyi daha önce ziyaret etmiş olmak zorundadır. Müşteriler bir web sitesine bağlanmadan önce, önce DIS'i insan tarafından okunabilen bir ana bilgisayar adıyla sorgulamalıdırlar. DIS, müşterilere etki alanı sertifikalarına en hızlı şekilde erişmelerini sağlamak için merkezi sunucular ve merkezi olmayan bir ağa sahiptir.
+Alan-adı Bilgi Sistemi, insan tarafından okunabilir ana bilgisayar adlarından bir alan-adı sertifikası biçimindeki alan-adına özgü bilgileri döndürür. Alan-adı Bilgi Sistemi, alan-adının şifreleme ayrıntılarını ve yönlendirme bilgilerini içeren sertifikasını döndürür. Ana bilgisayar adları şifreleme, yönlendirme bilgileriyle birlikte dahil edildiğinde, 0-RTT, kullanıcıdan önceden alanı ziyaret etmesine gerek kalmadan mümkündür. Bu, TLS 1.3'e kıyasla benzersiz bir avantajdır, çünkü 0-RTT varsayılan olarak TLS 1.3'te olduğu gibi siteyi daha önce ziyaret etmiş olmak zorundadır. Kullanıcı bir web sitesine bağlanmadan önce, önce Alan-adı Bilgi Sistemini insan tarafından okunabilen bir ana bilgisayar adıyla sorgulamalıdırlar. Alan-adı Bilgi Sistemi, kullanıcıların alan-adı sertifikalarına en hızlı şekilde erişmelerini sağlamak için merkezi sunucular ve merkezi olmayan bir ağa sahiptir.
 
-DİS, kötü niyetli sertifika ile ilgili saldırılara karşı başka bir savunma katmanı olarak hareket eder. DIS'den bir servise gitmek üzere bilgi istemek için geçersiz sertifikalar kullanıldığında, DIS sadece bir cevap döndürmeyi reddeder.
+Alan-adı Bilgi Sistemi, sertifikaya yapılan kötü niyetli saldırılara karşı başka bir savunma katmanı olarak hareket eder. Alan-adı Bilgi Sistemi'nden bir servise gitmek üzere bilgi istemek için geçersiz sertifikalar kullanıldığında, Alan-adı Bilgi Sistemi yanıt vermeyi reddeder.
 
-Etki alanı sertifikaları sağlayan merkezi olmayan düğümlerin hizmetleri aracılığıyla Viat kazanma şansı var. Bu işlevsellik Viat teknik incelemesiyle derinlemesine ele alınacak.
+Alan-adı sertifikaları sağlayan merkezi olmayan düğümler aracılığıyla VIAT kazanılabilir. Bu işlevsellik VIAT teknik inceleme dökümanında derinlemesine ele alınacaktır.
 
 ![DIS](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/images/turkish_3.jpg)
 
