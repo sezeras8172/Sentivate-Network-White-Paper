@@ -39,17 +39,17 @@ Küresel ekonominin yüksek performanslı ve ucuz bir ağ gerektirdiğini biliyo
     -   Çok parçalı imza: Ed25519ph
 -  Paket Şifreleme
 	- Ek Verilerle Kimlik Doğrulaması Yapılmış Şifreleme
-    - Bir mesajı bir mesajla ve gizli tutmak için şifrelemeyle şifreler.
+    - Mesajı bir anahtarla şifreler, tek bir olay için gizlilik sağlar.
     - Bir kimlik doğrulama etiketi hesaplar. Bu etiket, iletinin yanı sıra isteğe bağlı, gizli olmayan (şifrelenmemiş) verilerin de tahrif edilmediğinden emin olmak için kullanılır.
     - Şifreleme: XChaCha20 akış şifresi
-    - Authentication : Poly1305 MAC
+    - Kimlik doğrulama : Poly1305 MAC
 
-- Anahtar değişimi - Paylaşılan Oturum Gizli Anahtarları
+- Anahtar değişimi - Paylaşılmış Oturum Gizli Anahtarları
     - BLAKE2B-512
-        - AK BLAKE2 bir şifreleme karma işlevidir **MD5, SHA-1, SHA-2 ve SHA-3'ten daha hızlı**, en azından en son standart SHA-3 kadar güvenli
-        - NEON etkin ARM'ler dahil 64 bit platformlar için optimize edilmiştir ve 1 ile 64 bayt arasında her boyutta özetler üretir
+        - AK BLAKE2 bir karma şifreleme işlevidir **MD5, SHA-1, SHA-2 ve SHA-3'ten daha hızlı**, en azından en son standart SHA-3 kadar güvenlidir.
+        - NEON etkin ARM'ler dahil 64 bit platformlar için optimize edilmiştir ve 1 ile 64 bayt arasında her boyutta özetler üretir.
     - X25519- Geçici Anahtar Çifti
-        - Gönderenin gizli anahtarını ve alıcının genel anahtarını kullanarak gönderenle alıcı arasında paylaşılan bir sırrı hesaplar (veya tersi)
+        - Göndericinin gizli anahtarını ve alıcının genel anahtarını kullanarak gönderenle alıcı arasında paylaşılan bir mahrem bilgiyi hesaplar (veya tersi)
 
 ## Hibrit ağ
 ![Sentivate Hibrit ağ](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/images/turkish_1.jpg)
