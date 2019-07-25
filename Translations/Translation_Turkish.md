@@ -61,11 +61,11 @@ Küresel ekonominin yüksek performanslı ve ucuz bir ağ gerektirdiğini biliyo
 
 UDSP, UDP tabanlı düşük gecikmeli, gerçek zamanlı, iki yönlü, şifreli ve güvenilir bir Veri Aktarım Protokolüdür.
 
-##### Sorun
-Giriş bölümünde bahsedildiği gibi: Kullanıcının talepleri değişti ve internetin gereksinimleri arttı. Bu değişiklikler, HTTP'yi büyük bir tıkanıklık haline getirir. HTTP standardının kendisi ve TCP'nin ikisi de büyük sorunlardır. Çok büyük miktarda veriyi bir uç noktadan diğerine taşıyan büyük veri merkezleri, eski Internet mimarisiyle ilişkili gecikme ve maliyet sorunlarına sahiptir. HTTP, kullanıcılar düşük verim, sınırlı bant genişliği, düşük ağ bağlantısı veya gerçek zamanlıya yakın bir yanıt gerektirdiğinde, sorunludur.
+##### Problem
+Giriş bölümünde bahsedildiği gibi: Kullanıcı talepleri her geçen gün değişmekte ve internet gereksinimleri artmaktadır. Bu değişiklikler, HTTP'yi büyük bir tıkanıklık haline getirir. HTTP standardının kendisi ve TCP'nin ikisi de büyük sorunlardır. Çok büyük miktarda veriyi bir uç noktadan diğerine taşıyan büyük veri merkezleri, eski Internet mimarisiyle ilişkili gecikme ve maliyet sorunlarına sahiptir. HTTP, özellikle kullanıcılar düşük veri geçişi, sınırlı bant genişliği, zayıf ağ bağlantısı gibi durumlar yaşadığında veya gerçek zamanlıya yakın bir yanıta gereksinim duyulduğunda, sorunludur.
 
 ##### Çözüm
-Evrensel Web'in yapımındaki ilk adım, HTTP'yi tamamen UDSP ile değiştirmek. UDSP, UDP tabanlı düşük gecikmeli, gerçek zamanlı, çift yönlü, şifreli ve güvenilir bir Veri Aktarım Protokolüdür. Universal Web'de, tüm iletişim, akış veya herhangi bir veri türünün aktarılması UDSP'yi kullanır. Evrensel Web'de bir siteyi ziyaret ederken UDSP, HTTP yerine kullanılan protokoldür. Özel UDSP istemci ve sunucu modülleri, Sentivate Ağındaki bir web sitesini ziyaret etmek veya barındırmak için gereklidir. UDSP, Sentivate Ağının kuruluşu ve can damarıdır.
+Evrensel Web'in yapımındaki ilk adım, HTTP'yi tamamen UDSP ile değiştirmektir. UDSP, UDP tabanlı düşük gecikmeli, gerçek zamanlı, çift yönlü, şifreli ve güvenilir bir Veri Aktarım Protokolüdür. Evrensel Web'de, tüm iletişim, akış veya herhangi bir veri türünün aktarılması için UDSP kullanılır. Evrensel Web'de bir siteyi ziyaret ederken UDSP, HTTP yerine kullanılan protokoldür. Özel UDSP istemci ve sunucu modülleri, Sentivate Ağındaki bir web sitesini ziyaret etmek veya barındırmak için gereklidir. UDSP, Sentivate Ağının temeli ve can damarıdır.
 
 UDSP, bağlantı düzeyinde veya ilgili taraflar arasında kararlaştırılan istek başına esasına göre dinamik güvenilirliğe sahiptir. UDSP şifrelemeyi zorlar, bu da tüm UDSP bağlantılarının varsayılan olarak şifrelenmiş olduğu, istisnalar olmadığı anlamına gelir. UDSP IPv6, Multiplexing ve Multihoming'i destekler. UDSP, bağlantı kurmak için kriptografik tuş takımlarına ve XChaCha20'ye güveniyor.
 
