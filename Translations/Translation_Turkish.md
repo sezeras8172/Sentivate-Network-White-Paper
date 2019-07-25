@@ -32,13 +32,13 @@ HTTP ve DNS uzun zaman önce, modern taleplerin artacağı düşünülmeksizin i
 Küresel ekonominin yüksek performanslı ve ucuz bir ağ gerektirdiğini biliyoruz. Eğer modern ağın yerini sadece merkezi olmayan bir ağ alırsa, o zaman bant genişliği krizini hızlandıracak ve bizi bir distopya ağına götürecektir. Web 3.0 terimi sihirli bir dünya, devrimci bir fikir veya bir çözüm değil, bir kar elde etme aracıdır. Alım-satım işlemleri nanosaniye mertebesindeki sürelerde gerçekleşir. Küresel ekonominin, alım-satımların saniyeler veya dakikalar gibi blok sürelerinde doğrulanması ve sonrasında ağ üzerinden yayılmasını beklemek için zamanı yoktur. Yeni nesil web, kullanıcılar için daha yavaş ve pahalı olmamalıdır. Web 3.0 daha pahalıya mal olmakta ve “herşey blok zincirinde” gibi şeyler arkasına saklanmaktadırlar ve bir uygulamayı piyasaya sürmenin maliyeti ise çok düşüktür. Gerçek şu ki, ödediğiniz paranın karşılığını vermektedir. Hizmetler yerine kullanıcıya Web 3.0 masrafları yansır, bu ayrıca daha zayıf bir hizmet anlamına gelmektedir. Diğer bir yaygın argüman ise, kullanıcılara verilerini kontrol etme izin vermesidir. Bu bir sorun değildir, buna homomorfik şifreleme denir. Bu konuyu sadece topolojiden ele almak yerine, web'in her alanında yenilik yapmalı ve web servislerimizden daha fazlasını istemeliyiz. İnternetin topoloji problemi, eski teknoloji problemine kıyasla çok azdır. Bu Web 3.0 projeleri aslında web'i değiştirmeye özen gösteriyor olsalardı, asıl konulara odaklanırlardı. **Her iki topolojinin de kendine özgü kullanım durumları vardır, ancak ikisi birlikte kullanıldığında daha önce öngörülememiş ve gittikçe büyüyen bir sorunun çözümü olabilirler.**
 
 
-## EVRENSEL WEB KRİSTOGRAFİ ([SODYUM-YERLİ](https://github.com/sodium-friends/sodium-native))
+## EVRENSEL WEB KRİPTOGRAFİSİ ([SODYUM-NATIVE](https://github.com/sodium-friends/sodium-native))
 
 -  Anahtar İmzalar
-    -   Tek parça imzası: Ed25519
+    -   Tek parçalı imza: Ed25519
     -   Çok parçalı imza: Ed25519ph
 -  Paket Şifreleme
-	- Ek Verilerle Doğrulanmış Şifreleme
+	- Ek Verilerle Kimlik Doğrulaması Yapılmış Şifreleme
     - Bir mesajı bir mesajla ve gizli tutmak için şifrelemeyle şifreler.
     - Bir kimlik doğrulama etiketi hesaplar. Bu etiket, iletinin yanı sıra isteğe bağlı, gizli olmayan (şifrelenmemiş) verilerin de tahrif edilmediğinden emin olmak için kullanılır.
     - Şifreleme: XChaCha20 akış şifresi
