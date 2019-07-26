@@ -123,14 +123,14 @@ Kimlik sertifikaları, belirli sertifikalarla ilişkili olarak iyi ve kötü dav
 
 Kimlik sertifikaları gerçek dünya kimlikleri ve varlıkları ile bağlantılandırılabilirler. Bu özellik Sentivate'i seçimlerde güvenli, gizli ve doğrulanabilir oylamalar için ideal bir platform haline getirir. Mağazalar ve şirketler de, kullanıcıların doğrudan VIAT ile ödeme veya bağış yapmasına olanak sağlayan doğrulanmış kimlik sertifikalarına sahip olabilirler.
 
-### KİMLİK KAYIT (KİMLİK REGISTRAR)
-###### DEĞERLENDİRME VE İMZA
+### KİMLİK KAYITÇISI (IDENTITY REGISTRAR)
+###### TESCİL VE İMZALAMA
 
-Kimlik Tescil Görevlisi (IR) sertifikaları imzalayan ve ağ için ilk koruma katmanı olan bir hizmettir. IR, hatalı sertifikaları filtreleyerek, Sybil saldırılarını ve zorlayıcı oyuncuları durdurarak ağı koruyor. Kimlik Tescili, hizmetlerin bağlantı girişimlerini etkin bir şekilde reddetmelerine izin veren kötü amaçlı sertifikaların imzalanmamasını sağlar. Sahte imzalar DIS tarafından reddedilebilir ve bu nedenle bir hizmeti potansiyel olarak koruyabilir ve elden önce bazı kaynaklarını koruyabilir.
+Kimlik kayıtçısı, sertifikaları imzalayan ve ağ için ilk koruma katmanı olan bir hizmettir. Kimlik kayıtçısı, hatalı sertifikaları filtreleyerek, Sybil (bir ağı birden fazla sahte kimlik oluşturarak kontrol etme girişimi) saldırılarını ve kötü niyetli katılımcıları durdurarak ağı koruma görevi görür. Kimlik tescili, kötü amaçlı sertifikaların imzalanmamasını garanti eder, böylece kötü amaçlı bağlantı girişimlerinin engellenmesiyle hizmetin verimini artar. Sahte imzalar alan adı bilgi sistemi (domain information system) tarafından reddedilebilir ve bu nedenle bir hizmeti ve kaynaklarını potansiyel olarak koruyabilir.
 
-Merkezi olmayan bir ağ ve asiklik bir blok zinciri, imzalanmak üzere yeni gönderilen sertifikaların doğrulanmasına yardımcı olmak için kullanılacaktır. Sertifikalı ağ tarafından başarıyla onaylanırsa, IR sertifikayı imzalar. Daha sonra, servisler ve DIS tarafından başarıyla kullanılabilir. İlk el sıkışma sırasında, ilk paket bir UDSP akışı oluşturmak için gereken sertifikaları içerir. İmzalar başarıyla doğrulanırsa, el sıkışma işleminin geri kalanı devam eder, aksi halde başarısız olur.
+Merkezi olmayan (decentralized) bir ağ ve çevrimsel olmayan bir blok zinciri, imzalanmak üzere yeni gönderilen sertifikaların doğrulanmasına yardımcı olmak için kullanılacaktır. Sertifika ağ tarafından başarıyla onaylanırsa, kimlik kayıtçısı (identity registrar) sertifikayı imzalanır. Sonrasında, servisler ve alan adı bilgi sistemi (domain information system) tarafından başarıyla kullanılabilirler. Başlangıçtaki el sıkışma sırasında, ilk paket bir UDSP akışı oluşturmak için gereken sertifikaları içerir. İmzalar başarıyla doğrulanırsa, el sıkışma işleminin geri kalanı devam eder, aksi halde başarısız olur.
 
-Aktif sertifikalar sürekli güncellenecek ve imzalanacaktır. Bir sertifika yeniden imzalandığında, sertifikanın önceki imzasından bu yana geçen süreyi gösteren sertifikaya başka bir alan eklenir. Bu, belirli sertifikalar için ek bir güven katmanı ile hizmet sunar.
+Aktif sertifikalar devamlı olarak güncellenecek ve imzalanacaktır. Bir sertifika yeniden imzalandığında sertifikaya, sertifikanın önceki imzalanışından yana geçen süreyi gösteren başka bir alan eklenir. Böylece hizmetlere belirli sertifikalar için ilave bir güven katmanı sağlanmış olur.
 
 ## GELİŞİM 
 
