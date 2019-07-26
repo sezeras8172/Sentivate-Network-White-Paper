@@ -108,20 +108,20 @@ Sentivate üzerindeki alan-adları tam uzantılı adlarına sahiptir ve ticari m
 
 Örneğin, bir kullanıcı Amazon web sitesini açmak istediğinde Sentivate tarayıcısına yalnızca Amazon yazarak gidebilir. Alan adı kuralları, Sentivate ağında daha katıdır. Alan adı ele geçirme işlemine tamamen izin verilmiyor, basitçe ya kullanırsınız ya da alan adını kaybedersiniz. Alan adı içeriği veya hizmeti, alan adı uzantısına uygun olması gerekir. Örneğin; Amazon'un mağazasının "Amazon.store" adlı mağaza alan adı uzantısını kullanması gerekir. Belli alan adları için steno alan adı uzantıları vardır. Örneğin, Amazon’un web sitesi, şirket alan adı uzantısını kullanmalıdır. Amazon.company veya Amazon.com’un steno varyantını kullanmalıdır. Bitcoin, Ethereum ve Litecoin kripto para birimlerine ait web siteleri ise kripto paralar için ayrılmış kripto para birimi uzantısını kullanmalıdırlar. Ancak, bitcoin ile ilgili bir haber yapan siteler ise, .news veya .blog uzantısını kullanmalıdır. Rasgele ve veya rasgele içeriğe sahip olabilecek herhangi bir alan adı .abstract uzantısını kullanmalıdır.
 
-## UNIVERSAL KİMLİK SİSTEMİ
+## EVRENSEL KİMLİK SİSTEMİ
 
-### KİMLİK BELGELERİMİZ
-###### EPHEMERAL VE MASTER ANAHTAR ÇİFTLER
+### KİMLİK SERTİFİKALARI
+###### EPHEMERAL VE MASTER ANAHTAR ÇİFTLERİ
 
-Kimlik sertifikaları (IC), sizi ağda temsil eden ve bir Kimlik Tescil Görevlisi tarafından imzalanan şifreleme ayrıntılarını sağlayan belgelerdir. Bir kimlik sertifikasının iki şifreleme anahtarı çifti vardır: Master ve Ephemeral. Özel olarak geçici sertifikaları imzalamak için bir ana anahtar çifti kullanılır ve çekirdek tanımlayıcı anahtar çiftidir. Geçici anahtar çiftleri, sahibinin takdirine bağlı olarak değiştirilebilir. Kimlik sertifikaları, ağdaki istemcileri şifreleyerek doğrular ve yetkilendirir.
+Kimlik sertifikaları, sizi ağda temsil eden ve bir Kimlik Kayıtçısı (Identity Registrar) tarafından imzalanan şifreleme ayrıntılarını sağlayan belgelerdir. Bir kimlik sertifikasının iki şifreleme anahtarı çifti vardır: Master ve Ephemeral. Özel olarak geçici sertifikaları imzalamak için bir ana anahtar çifti kullanılır ve çekirdek tanımlayıcı anahtar çiftidir. Geçici anahtar çiftleri, sahibinin takdirine bağlı olarak değiştirilebilir. Kimlik sertifikaları, ağdaki istemcileri şifreleyerek doğrular ve yetkilendirir.
 
-Geçici Sertifikalar (EC), Ana Sertifikaya bir alt sertifikadır. EC'ler, kullanıcı tanımlı servislere erişmek için kullanılan profiller gibi davranır. Örneğin, cüzdan sertifikası, bankacılık sertifikası, genel web tarama sertifikası veya her servis için. Ancak, tüm hizmetler için tek bir geçici sertifika kullanmayı seçebilirsiniz. EC'ler, menşe ile ev sahibi arasında iki yönlü bir UDSP bağlantısı kuran anahtar değişim işlemi için kullanılır.
+Geçici sertifikalar (Ephemeral Certificate), ana sertifikaya (Master Certificate) ait bir alt sertifikadır. Geçici sertifikalar, kullanıcı tanımlı servislere erişmek için kullanılan profiller gibi davranır. Örneğin, cüzdan sertifikası, banka işlemleri sertifikası, genel web tarama sertifikası veya tüm servisler için. Ancak, tüm hizmetler için tek bir geçici sertifika kullanmayı seçebilirsiniz. Geçici sertifikalar, kaynak ile ana makine arasında iki yönlü bir UDSP bağlantısı kuran anahtar değişim işlemi için kullanılır.
 
-Kullanıcılar, hemen sertifika alabilirler, kimlik sertifikalarıyla bir öğeye kaydolabilir, giriş yapabilir ve satın alabilirler. Sunucular, başarılı bir UDSP anlaşması oluşturmak için bağlantı sırasında müşteri sertifikası isterler.
+Kullanıcılar, hemen sertifika alabilirler, kimlik sertifikalarıyla kayıt olabilir, giriş yapabilir ve ürün satın alabilirler. Sunucular, başarılı bir UDSP el sıkışması (handshake) oluşturmak için bağlantı sırasında kullanıcı sertifikasını zorunlu tutar.
 
-Kimlik sertifikaları, belirli sertifikalarla ilişkili olarak iyi ve kötü davranışları genel olarak kaydedebilen merkezi olmayan bir itibar sisteminin temelini oluşturur. Bilinen kötü oyuncuların ağı daha da güvenli hale getiren bir hizmete erişmelerini engellemek için bir bal küpü kullanılabilir.
+Kimlik sertifikaları, belirli sertifikalarla ilişkili olarak iyi ve kötü davranışları genel olarak kaydedebilen merkezi olmayan (decentralized) bir itibar sisteminin temelini oluşturur. Bunu cazip kılan şey, kaydedilmiş kötü üne sahip katılımcıların ağ hizmetine erişmelerinin engellemesi, bunun ötesinde ağın daha güvenli hizmet vermesini sağlanmaktır.
 
-Kimlik sertifikaları gerçek dünya kimlikleri ve varlıkları ile ilişkilendirilebilir. Sentivate'i seçimlerde güvenli, özel ve doğrulanabilir oylamalar için ideal bir platform haline getirmek. Mağazalar ve şirketler, kullanıcıların Viat ile doğrudan ödeme yapmasına veya bağış yapmasına izin veren IC'leri doğrulamış olabilir.
+Kimlik sertifikaları gerçek dünya kimlikleri ve varlıkları ile bağlantılandırılabilirler. Bu özellik Sentivate'i seçimlerde güvenli, gizli ve doğrulanabilir oylamalar için ideal bir platform haline getirir. Mağazalar ve şirketler de, kullanıcıların doğrudan VIAT ile ödeme veya bağış yapmasına olanak sağlayan doğrulanmış kimlik sertifikalarına sahip olabilirler.
 
 ### KİMLİK KAYIT (KİMLİK REGISTRAR)
 ###### DEĞERLENDİRME VE İMZA
