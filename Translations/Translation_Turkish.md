@@ -101,12 +101,12 @@ Alan-adı sertifikaları sağlayan merkezi olmayan düğümler aracılığıyla 
 
 ![DIS](https://github.com/sentivate/Sentivate-Network-White-Paper/blob/master/images/turkish_3.jpg)
 
-### DOMAINS
-###### İNSAN OKUMA HOSTNAMLARI
+### ALAN-ADLARI
+###### İNSAN TARAFINDAN OKUNABİLİR ANA BİLGİSAYAR ADLARI
 
-Sentivate’deki alanlar tam uzantı adlarına sahiptir ve ticari marka varlıkları için tek tam adlar içerebilir. Etki alanı kuralları ve düzenlemeleri web'i düzenlemek, yeni şirketler için etki alanı adları serbest bırakmak, ticari markaları korumak, kötü amaçlı faaliyetleri sınırlandırmak ve uzantıları daha açıklayıcı hale getirmek için tasarlanmıştır.
+Sentivate üzerindeki alan-adları tam uzantılı adlarına sahiptir ve ticari markalar için tek tam adlara sahip olabilir. Alan-adı kuralları ve düzenlemeleri web'i organize etmek, yeni şirketler için alan adlarını boşa çıkarmak, ticari markaları korumak, kötü amaçlı faaliyetleri sınırlandırmak ve uzantıları daha tanımlayıcı hale getirmek için tasarlanmıştır.
 
-Örneğin, bir Amazon yalnızca Sentivate tarayıcısına Amazon yazarak gidebilir. Etki alanı kuralları, Sentivate ağında daha katıdır. Etki alanı ele geçirme işlemine tamamen izin verilmiyor, bunun bir kullanımı var ya da politikasını kaybediyor. Etki alanı içeriği veya hizmeti, etki alanı uzantısıyla alakalı olmalıdır. Örneğin, Amazon'un mağazasının "Amazon.store" adlı mağaza etki alanı uzantısını kullanması gerekir. Bazı etki alanları için kısa devre alanı uzantıları vardır. Örneğin, Amazon’un şirket web sitesinde, Amazon. Bitcoin, Ethereum ve Litecoin kripto para birimleridir ve bunlara adanmış siteler kripto para birimi uzantısını kullanmalıdır. Ancak, bitcoin ile ilgili bir haber sitesi .news veya .blog uzantısını kullanmalıdır. Rasgele ve veya rasgele içeriğe sahip olabilecek herhangi bir etki alanı .abstract uzantısını kullanmalıdır.
+Örneğin, bir kullanıcı Amazon web sitesini açmak istediğinde Sentivate tarayıcısına yalnızca Amazon yazarak gidebilir. Alan adı kuralları, Sentivate ağında daha katıdır. Alan adı ele geçirme işlemine tamamen izin verilmiyor, basitçe ya kullanırsınız ya da alan adını kaybedersiniz. Alan adı içeriği veya hizmeti, alan adı uzantısına uygun olması gerekir. Örneğin; Amazon'un mağazasının "Amazon.store" adlı mağaza alan adı uzantısını kullanması gerekir. Belli alan adları için steno alan adı uzantıları vardır. Örneğin, Amazon’un web sitesi, şirket alan adı uzantısını kullanmalıdır. Amazon.company veya Amazon.com’un steno varyantını kullanmalıdır. Bitcoin, Ethereum ve Litecoin kripto para birimlerine ait web siteleri ise kripto paralar için ayrılmış kripto para birimi uzantısını kullanmalıdırlar. Ancak, bitcoin ile ilgili bir haber yapan siteler ise, .news veya .blog uzantısını kullanmalıdır. Rasgele ve veya rasgele içeriğe sahip olabilecek herhangi bir alan adı .abstract uzantısını kullanmalıdır.
 
 ## UNIVERSAL KİMLİK SİSTEMİ
 
