@@ -132,20 +132,20 @@ Merkezi olmayan (decentralized) bir ağ ve çevrimsel olmayan bir blok zinciri, 
 
 Aktif sertifikalar devamlı olarak güncellenecek ve imzalanacaktır. Bir sertifika yeniden imzalandığında sertifikaya, sertifikanın önceki imzalanışından yana geçen süreyi gösteren başka bir alan eklenir. Böylece hizmetlere belirli sertifikalar için ilave bir güven katmanı sağlanmış olur.
 
-## GELİŞİM 
+## GELİŞTİRME
 
 ### hApps
-###### HİBRİD EVRENSEL WEB UYGULAMALARI
+###### HİBRİT EVRENSEL WEB UYGULAMALARI
 
-Hibrit uygulamalar kendi kendini oluşturuyor ve tek sayfalı uygulamalar yayınlıyor. Hibrit uygulamalar reaktif, dinamik ve modüler gelişim metodolojileri kullanılarak oluşturulmuştur. hApps, en yüksek ölçeklenebilirlik potansiyelini sağlayan merkezi ve merkezi olmayan ağların tüm avantajlarına sahiptir.
+Hibrit uygulamalar (hApps), mobil uygulamanın tek bir kod ile yazılarak tüm platformlarda (Android,Ios,Windows) çalışan uygulama tipidir. Hibrit uygulamalar duyarlı, dinamik ve modüler gelişim metodolojileri kullanılarak oluşturulmuşlardır. Hibrit uygulamalar, en yüksek ölçeklenebilirlik potansiyelini sağlar, merkezi ve merkezi olmayan ağların tüm avantajlarına sahiptirler.
 
-hApps’ın varlıkları kendi dosyalarında bulunur ve müşteriye ihtiyaç duyulduğunda aktarılır. hApp'ler, akış boyunca yürürken kendisini inşa eden bir köprü gibi, zaman içerisinde izlenir ve kurulur. Yalnızca bir ilk sayfa yükleme gerçekleşir ve ardından Sayfalar, Tek sayfa uygulamalarına benzer şekilde gerektiğinde dinamik olarak oluşturulur. Sadece müşteri tam olarak ihtiyaç duyduğunda kaynak alınacak ve teslim edilecek.
+Hibrit uygulamalar’ın varlıkları kendi dosyalarında bulunur ve müşteriye ihtiyaç duyulduğunda aktarılır. Hibrit uygulamalar zamanla inşa edilir ve akış sağlar, tıpkı üzerinde yürüdükçe kendisini inşa eden bir köprü gibi düşünülebilir. Yalnızca bir ilk sayfa yükleme gerçekleşir ve ardından sayfalar, tek sayfa uygulamalarına benzer şekilde gerektiğinde dinamik olarak oluşturulur. Yalnızca müşterinin ihtiyaç duyduğu zamanda getirilir ve iletilir.
 
-Sentivate’in bileşenleri, oldukça modüler varlık akışı sağlar. Örneğin, bileşenler, paylaşılan varlıkların yalnızca bir kez indirilmesini ve yinelenen kodun hiçbir zaman kablo üzerinden gönderilmemesini sağlayan aynı CSS veya HTML varlıklarını paylaşabilir. Bu metodoloji ile sunucu yükleri ve bant genişliği önemli ölçüde azaldı, çünkü şu anda müşteri tam olarak ihtiyaç duyulanı çekiyor.
+Sentivate’in bileşenleri, oldukça modüler bir varlık akışı sağlar. Örneğin, bileşenler, paylaşılan varlıkların yalnızca bir kez indirilmesini ve yinelenen kodun hiçbir zaman hat üzerinden gönderilmemesini sağlar, tıpkı CSS veya HTML varlıkları gibi. Bu metodoloji ile sunucu yükleri ve bant genişliği önemli ölçüde azalmış olur, çünkü kullanıcı tüm veri yerine sadece tam olarak ihtiyaç duyulan veriyi çekmektedir.
 
-Hybrid Apps, hedef servise ek olarak varlıklar için bir merkeziyetçi olmayan P2P CDN'si kullanabilir. Hibrit İçerik Dağıtım Ağı'nı kullanmak, hibrit uygulamaların yüksek kullanılabilirliğe, ölçeklenebilirliğe ve daha fazla bant genişliğine sahip olduğu anlamına gelir.
+Hibrit uygulamalar, hedef hizmete ek olarak, varlıklar için bir merkezi olmayan (decentralized) P2P (Eşten eşe) CDN (içerik dağıtım ağı)'si kullanabilir. Hibrit İçerik Dağıtım Ağı'nı kullanmak, hibrit uygulamaların yüksek kullanılabilirliğe, ölçeklenebilirliğe ve daha fazla bant genişliğine sahip olduğu anlamına gelir.
 
-hApps, ilk bağlantı anlaşması sırasında istemcileri otomatik olarak doğrular, doğrular ve yetkilendirir. hApps arka uçları, istemcileri genel anahtarlarıyla veya tam sertifikalarıyla saklayabilir ve başvuruda bulunabilir. Bütün İnternet için outh olarak düşünün. Hizmetlerin artık parolaları toplama, saklama veya şifreleme konusunda endişelenmesine gerek yok. Müşteriler bir düğmeye tıklayarak veya hızlıca servise bağlayarak otomatik olarak giriş yapabilirler. Kullanıcıların artık tuş takımlarını kullanmak daha güvenli ve kullanımı daha kolay olduğu için karmaşık şifreler hatırlamak veya oluşturmak zorunda değiller. Servisler bir kullanıcı adınızın olmasını gerektirmiyorsa, tanımlayıcı adınız olarak genel anahtarınıza güvenebilirler. Bu, bazı hizmetler için kullanıcıların kayıt işlemi sırasında bir kullanıcı adı ve parola oluşturmak zorunda olmadıkları anlamına gelir.
+Hibrit uygulamalar, ilk bağlantı anlaşması sırasında istemcileri otomatik olarak doğrular ve yetkilendirir. Hibrit uygulama arkayüzleri, istemcileri genel anahtarlarıyla veya tam sertifikalarıyla saklayabilir ve başvuruda bulunabilir. Tüm internet için OAuth (Open Authorization) protokolü olması gibi düşünülebilir. Hizmetlerin artık parolaları toplama, saklama veya şifreleme konusunda endişelenmesine gerek yoktur. Kullanıcılar bir düğmeye tıklayarak veya hızlıca servise bağlayarak otomatik olarak giriş yapabilirler. Tuş takımlarını kullanmak daha güvenli ve kullanımı daha kolay olduğu için kullanıcılar artık karmaşık şifreler hatırlamak veya oluşturmak zorunda değillerdir. Servisler bir kullanıcı adınızın olmasını gerektirmiyorsa, tanımlayıcı adınız olarak genel anahtarınıza güvenebilirler. Bu, bazı hizmetler için kullanıcıların kayıt işlemi sırasında bir kullanıcı adı ve parola oluşturmak zorunda olmadıkları anlamına gelir
 
 ## VIAT
 
